@@ -1,4 +1,18 @@
 body {
-
 	background-color: royalblue;
 }
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 350px;
+	
+}
+
+div {
+	border:1px solid red;
+	border-radius: 3px;
+	align-items: flex-start;
+	justify-content: space-between;
+};
